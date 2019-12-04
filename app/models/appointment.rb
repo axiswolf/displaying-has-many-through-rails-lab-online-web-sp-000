@@ -7,7 +7,7 @@ class Appointment < ApplicationRecord
     time.strftime("%B %d, %Y %H:%M")
   end
 
-  def c_date 
+  def c_date
     time = self.appointment_datetime
     time.strftime("%B %d, %Y")
   end
@@ -16,5 +16,5 @@ class Appointment < ApplicationRecord
     time = self.appointment_datetime
     time.strftime("%H:%M")
   end
-  
+
 end
