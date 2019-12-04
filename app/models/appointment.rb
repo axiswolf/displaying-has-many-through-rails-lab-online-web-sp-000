@@ -4,7 +4,7 @@ class Appointment < ApplicationRecord
 
   def cor_date
     time = self.appointment_datetime
-    time.strftime("%b %d, %Y")
+    time.strftime("%B %d, %Y")
   end
 
 end
