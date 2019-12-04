@@ -1,6 +1,6 @@
 Patient's Appointment Times and Doctor
 
-<% @patient.each do |patient| %>
+<% @patient.appointments each do |patient| %>
 <br><%= patient.c_date %> at <%= patient.c_time %>
 <br><%= link_to patient.doctor.name doctor_path(patient.doctor) %>
 <%end%>
