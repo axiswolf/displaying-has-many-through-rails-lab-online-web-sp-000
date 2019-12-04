@@ -1,4 +1,4 @@
-class PatientsController < ApplicationsController
+class PatientsController < ApplicationController
 
 
 
