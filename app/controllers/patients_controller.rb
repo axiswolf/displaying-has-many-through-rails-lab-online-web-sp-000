@@ -1,0 +1,6 @@
+class PatientsController < ApplicationsController
+
+
+
+
+end
