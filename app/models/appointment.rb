@@ -6,5 +6,5 @@ class Appointment < ApplicationRecord
     time = self.appointment_datetime
     cor_time = time.strftime
   end
-  
+
 end
