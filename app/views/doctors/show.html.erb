@@ -1,1 +1,4 @@
-<%= @doctor.appointments.appointment_datetime %>
+<% @doctor.appointments.each do |appointment| %>
+<%= appointment.appointment_datetime %>
+<br>
+<%end%>
